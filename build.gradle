@@ -36,5 +36,7 @@ dependencies {
     //인메모리 관계형 데이터베이스, 애플리케이션 재시작 시 초기화됨으로 테스트 용도
     //별도 설치 없이 의존성만을 관리
     compile('com.h2database:h2:')
+    //머스테치(템플릿엔진) 등록
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
