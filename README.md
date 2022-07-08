@@ -13,13 +13,15 @@ Gradle의 버전을 확인하고 5버전 이상이면 변경 필요
 
 ![tempsnip](https://user-images.githubusercontent.com/93722435/177921216-a361fb1a-923f-436d-b752-97683eff5862.png)
 
+아래 방법중 하나를 선택하여 Gradle 버전 변경
+
+1. 직접 프로퍼티 설정
 **gradle-wrapper.properties**
 ```
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.2-bin.zip
 ```
-직접 설정 변경
 
-
+2. 터미널 명령 실행
 인텔리제이에서 ```alt+F12``` 눌러 터미널을 열고 아래 명령 실행
 ```bash
 gradlew wrapper --gradle-version 4.10.2
