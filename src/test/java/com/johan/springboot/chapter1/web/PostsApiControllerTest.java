@@ -40,7 +40,7 @@ public class PostsApiControllerTest {
     }
 
     @Test
-    public void postResister() throws Exception {
+    public void postInsert() throws Exception {
         String title = "title";
         String content = "content";
 
