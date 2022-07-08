@@ -1,5 +1,6 @@
 package com.johan.springboot.chapter1.domain.posts;
 
+import com.johan.springboot.chapter1.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,7 @@ import javax.persistence.*;
 // , title varchar(500) not null
 // , primary key (id))
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     //@Id : 해당 테이블의 PK필드
     @Id
