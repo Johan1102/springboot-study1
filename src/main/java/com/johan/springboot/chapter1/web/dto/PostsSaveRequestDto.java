@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+//Entity(Posts) 클래스와 유사한 형태이나 DTO클래스를 추가로 생성
+//Entity클래스를 Request/Response로 사용X, DB와 매칭되는 핵심 클래스이기 때문
 @Getter
 @NoArgsConstructor
 public class PostsSaveRequestDto {
@@ -20,10 +22,11 @@ public class PostsSaveRequestDto {
     }
 
     public Posts toEntity() {
+        System.out.println("@@@@@@@@@@@@@@@ requestDto @@@@@@@@@@@@@@@");
         return Posts.builder()
-                .title(title)
-                .content(content)
-                .author(author)
+                .title(this.title)
+                .content(this.content)
+                .author(this.author)
                 .build();
     }
 }
