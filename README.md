@@ -1,8 +1,9 @@
 # springboot-study1
-Spring Boot, Spring Data Jpa, AWS 웹 서버 구현
+-Spring Boot, JPA, AWS, Junit 테스트, Gradle
+- 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 책 내용 구현
 
 ## 프로젝트 환경 
-- Intellij 2019.2
+- IntelliJ 2019.2
 - Java 8
 - Gradle 4.10.2
 - Spring Boot 2.1.7
