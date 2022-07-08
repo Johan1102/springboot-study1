@@ -16,7 +16,7 @@ Spring Boot, Spring Data Jpa, AWS 웹 서버 구현
 
 - 아래 방법중 하나를 선택하여 Gradle 버전 변경
 
-1. **gradle-wrapper.properties** 직접 프로퍼티 설정
+1. **gradle-wrapper.properties** 직접 프로퍼티 설정 
 ```
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.2-bin.zip
 ```
