@@ -1,5 +1,5 @@
 # springboot-study1
--Spring Boot, JPA, AWS, Junit 테스트, Gradle
+- Spring Boot, JPA, AWS, Junit 테스트, Gradle
 - 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 책 내용 구현
 
 ## 프로젝트 환경 
