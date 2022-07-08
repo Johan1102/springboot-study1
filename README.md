@@ -8,12 +8,12 @@ Spring Boot, Spring Data Jpa, AWS 웹 서버 구현
 - Spring Boot 2.1.7
 
 ### Gradle 버전 체크
-Gradle의 버전을 확인하고 5버전 이상이면 변경 필요
+- Gradle의 버전을 확인하고 5버전 이상이면 변경 필요
 
 
 ![tempsnip](https://user-images.githubusercontent.com/93722435/177921216-a361fb1a-923f-436d-b752-97683eff5862.png)
 
-아래 방법중 하나를 선택하여 Gradle 버전 변경
+- 아래 방법중 하나를 선택하여 Gradle 버전 변경
 
 1. 직접 프로퍼티 설정
 **gradle-wrapper.properties**
