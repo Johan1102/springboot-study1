@@ -13,6 +13,7 @@ Spring Boot, Spring Data Jpa, AWS 웹 서버 구현
 
 ![tempsnip](https://user-images.githubusercontent.com/93722435/177921216-a361fb1a-923f-436d-b752-97683eff5862.png)
 
+
 - 아래 방법중 하나를 선택하여 Gradle 버전 변경
 
 1. 직접 프로퍼티 설정
