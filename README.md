@@ -1,5 +1,5 @@
 # springboot-study1
-- Spring Boot, JPA, AWS, Junit 테스트, Gradle
+- Spring Boot, JPA, AWS, Junit 테스트, Gradle, Mustache
 - 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 책 내용 구현
 
 ## 프로젝트 환경 
@@ -9,7 +9,7 @@
 - Spring Boot 2.1.7
 
 ### Gradle 버전 체크
-- Gradle의 버전을 확인하고 5버전 이상이면 변경 필요
+- Gradle의 버전을 확인하고 5버전 이상이면 4로 다운그레이드 필요
 
 
 ![tempsnip](https://user-images.githubusercontent.com/93722435/177921216-a361fb1a-923f-436d-b752-97683eff5862.png)
