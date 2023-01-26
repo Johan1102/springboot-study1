@@ -1,4 +1,4 @@
-# springboot-study1
+# springboot-web1
 - Spring Boot, JPA, AWS, Junit 테스트, Gradle, Mustache
 - 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 책 내용 구현
 
